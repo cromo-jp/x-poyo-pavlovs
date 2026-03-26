@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "X Notification Jackpot",
+  "version": "1.0.0",
+  "description": "Make unread notifications on X glow like a pachinko jackpot and rank how fast you open them.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://x.com/*",
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
