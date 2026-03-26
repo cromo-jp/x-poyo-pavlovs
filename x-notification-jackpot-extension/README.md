@@ -1,4 +1,4 @@
-# X Notification Jackpot
+# X Poyo-Notification Jackpot (Pavlov's bird)
 
 X(Twitter) の通知タブが未読状態になった瞬間に、パチンコの当たり演出のような七色発光を通知アイコンへ付与し、通知画面へ開くまでの速さをランク表示する Chrome 拡張です。
 
